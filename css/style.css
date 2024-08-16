@@ -1,0 +1,88 @@
+/*fonts links*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*common start*/
+:root{
+	--black: #000000;
+	--white: #ffffff;
+	--ash: #cacaca;
+	--rob: "Roboto", sans-serif;
+	--lato: "Lato", sans-serif;
+}
+body{
+	font-family: var(--rob);
+	font-size: 16px;
+	font-weight: 400;	
+	color: var(--ash);
+}
+/*common end*/
+/*header start*/
+header{
+	border-bottom: 1px solid;
+}
+.hn{
+	color: #4e4e4e;
+	font-weight: 400 !important;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.manu{}
+.manu ul{}
+.manu ul li{}
+.manu ul li a{}
+.d-d{}
+.d-d a{
+	border: 0;
+}
+.d-d a::after{
+	display: none;
+}
+.d-d a i{}
+.ddf{}
+.d-dm{
+	width: 350px;
+	padding: 15px 10px;
+}
+.d-dm[data-bs-popper]{
+	top: 60px;
+	left: -330px;
+	margin-top: 0;
+}
+.ddmi{
+	box-shadow: none;
+	border: 0;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.ddmb{
+	border: 0;
+	background-color: transparent;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	background-image: url('../images/s-img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.s-content{
+	margin: 200px 0;
+}
+/*slider end*/
+/*welcome start*/
+.welcome{}
+.h{
+	font-family: var(--lato);
+	font-weight: 400;
+	font-size: 30px;
+	color: #414141;
+	padding-top: 70px;
+}
+.p{
+	padding: 45px 65px 100px;
+	display: flex;
+}
+/*welcome end*/
